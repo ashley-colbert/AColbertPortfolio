@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Kadwa&display=swap');
+
+
+body {
+  font-family: 'Kadwa', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background: whitesmoke;
+  margin: 25px;
+}
+
+header {
+  margin: -25px;
+  background: rgb(56, 90, 91);
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#avatar {
+  border-radius: 50%;
+  padding: 25px;
+  
+}
+
+.head {
+  float: right;
+  color: white;
+  height: 100%;
+  padding: 25px;
+  margin-top: 25px;
+  width: 65%;
+  border-left: 4px white solid;
+  border-radius: 8px;
+}
+
+.moreLink {
+  float: right;
+  text-decoration: none;
+  color: peachpuff;
+  padding-left: 3em;
+}
+
+.moreLink:hover {
+  font-size: larger;
+}
+
+#mainBox {
+  display:flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 5%;
+}
+
+.infoBox {
+  width: 35%;
+  border: 2em  rgb(56, 90, 91, 0.5)  solid;
+  border-radius: 9px;
+  margin: 5%;
+  padding: 1%;
+}
+
+#img {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+
+.icons {
+  padding: 1em;
+  width: 5%;
+}
+
+.wideBox {
+  width: 90%;
+  background:rgb(56, 90, 91, 0.2) ;
+  /* border: 2em  rgb(56, 90, 91) solid; */
+  /* border-radius: 9px; */
+  margin: 50px 25px 25px 25px;
+  padding: 1%;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1em;
+}
+
+.projects {
+  margin: 1em;
+}
+
+.right {
+  float: right;
+  margin: 5px;
+}
+
+footer {
+  background: rgb(56, 90, 91);
+  margin: 25px -25px -25px -25px;
+  padding: 1em;
+}
+
+a:hover {
+  box-shadow: 4px 4px 6px rgb(56, 90, 91);
+}
+
+#center {
+  text-align: center;
+}
