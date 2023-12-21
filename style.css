@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  margin: -25px;
+  margin: -25px -25px 0 -25px;
   background: rgb(56, 90, 91);
   height: auto;
   display: flex;
@@ -43,7 +43,7 @@ header {
   font-size: larger;
 }
 
-#mainBox {
+.mainBox {
   display:flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -54,8 +54,8 @@ header {
   width: 35%;
   border: 2em  rgb(56, 90, 91, 0.5)  solid;
   border-radius: 9px;
-  margin: 5%;
   padding: 1%;
+  margin-bottom: 5%;
 }
 
 #img {
@@ -91,13 +91,18 @@ header {
 
 .right {
   float: right;
-  margin: 5px;
+  margin: 0 10px 0 0;
 }
 
 footer {
   background: rgb(56, 90, 91);
-  margin: 25px -25px -25px -25px;
+  margin: 25px -25px 0 -10px ;
   padding: 1em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left:0;
+  color: white;
 }
 
 a:hover {
@@ -107,3 +112,29 @@ a:hover {
 #center {
   text-align: center;
 }
+
+#joke {
+  width: 35%;
+  border-radius: 9px;
+  margin: 5%;
+  padding: 1%;
+}
+
+#submit {
+  width: 30%;
+  background: peachpuff;
+  border: 2pt rgb(56, 90, 91, 0.5)  solid;
+  box-shadow: 2px 2px 2px;
+  margin-left: 30%;
+  margin-right: 30%;
+  
+}
+
+#submit:active {
+  transform: translateY(4px);
+}
+
+.text1 {
+  color: rgb(56, 90, 91); 
+}
+

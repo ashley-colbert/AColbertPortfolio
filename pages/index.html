@@ -1,3 +1,6 @@
+<!-- Writter by Ashley Colbert
+Written on December 21, 2024 -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,13 +16,14 @@
       <p>Hello! I'm Ashley, a front-end developer and software development student based in St. John's, Newfoundland. When I graduate from Keyin College in August 2024 I will be a full-stack developer, equipped with a comprehensive understanding of both front-end and back-end technologies. </p><br><br>
      <nav> 
       <a href="./contact.html" class="moreLink">| Contact me |</a>
+      <a href="./game.html" class="moreLink">| Joke generator |</a>
       <a href="./moreInfo.html" class="moreLink">| More about me |</a> 
     </nav>
     </div>
   </header>
   
   <main>
-    <div id="mainBox">
+    <div class="mainBox">
       <div class="wideBox">
         <h2>My Current Tech Stack</h2>
         <div id="img">
@@ -33,23 +37,19 @@
         <img class="icons" src="../images/AWS.png">
         <img class="icons" src="../images/Figma.png">
         <img class="icons" src="../images/Github.png">
-        <img class="icons" src="../images/Visual Studio Code.png">
-        
+        <img class="icons" src="../images/Visual Studio Code.png">       
         </div>
-
-      
-
     </div>
     <div class="wideBox">
       <h2>Past and Current Projects</h2>
       <div class="flex">
-        <img src="../images/diner1.png" alt="Diner website screenshot" class="projects" width="25%" height="10%"/>
-        <img src="../images/rainforest1.png" class="projects"alt = "Store website screenshot" width="25%" height ="10%" />
-        <img src="../images/otter.png" alt="Otter website screenshot" class="projects"width ="25%" height="10%"/>
-        <img src="../images/rest1.png" class="projects" alt="Restaurant website screenshot" width="25%" height="10%" />
-        <img src="../images/stables.png" alt="Stables website screenshot" class="projects" width="25%" height ="10%"/>
-        <img src="../images/dogs1.png" alt="Dog website screenshot" class="projects" width="25%" height ="10%"/>
-
+        <img id="image1" src="../images/diner1.png" alt="Diner website screenshot" class="projects" width="45%" height="15%" onclick="changeImageDiner()"/>
+        <img id="image2"src="../images/rainforest1.png" class="projects"alt = "Store website screenshot" width="45%" height ="15%" onclick="changeImageRainforest()"/>
+        <img id="image3" src="../images/otter.png" alt="Otter website screenshot" class="projects"width ="45%" height="15%" onclick="changeImageOtter()"/>
+        <img id="image4" src="../images/rest1.png" class="projects" alt="Restaurant website screenshot" width="45%" height="15%" onclick="changeImageRest()"/>
+        <img src="../images/stables.png" alt="Stables website screenshot" class="projects" width="45%" height ="15%" />
+        <img id="image5"src="../images/dogs1.png" alt="Dog website screenshot" class="projects" width="45%" height ="15%" onclick="changeImageDogs()"/>
+        <p class="text1">Click each image to view more screen shots</p>
       </div>
 
     </div>
